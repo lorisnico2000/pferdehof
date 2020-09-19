@@ -10,7 +10,6 @@ options {
         showNavTitle = 1
         # Shows the domain name as a suffix of the title if available
         showDomainNameWithTitle = 1
-
     }
 
     # Available clear cache-buttons
