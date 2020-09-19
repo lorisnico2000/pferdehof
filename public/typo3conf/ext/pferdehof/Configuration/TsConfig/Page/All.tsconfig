@@ -1,0 +1,4 @@
+#
+# PageTS for pferdehof
+#
+<INCLUDE_TYPOSCRIPT: source="FILE:EXT:pferdehof/Configuration/TsConfig/Page/RTE.tsconfig">

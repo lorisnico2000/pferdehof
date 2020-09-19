@@ -1,0 +1,20 @@
+base: 'http://www.pferdehof-am-muehlibach.ch/'
+baseVariants:
+  -
+    base: 'http://pferdehof.local/'
+    condition: 'getenv("HTTP_HOST") matches "/pferdehof\.local/"'
+rootPageId: 1
+languages:
+  -
+    title: Deutsch
+    navigationTitle: DE
+    base: '/'
+    enabled: true
+    languageId: '0'
+    typo3Language: de
+    locale: de_CH.UTF-8
+    iso-639-1: de
+    hreflang: de
+    direction: ltr
+    flag: ch
+routes: {  }

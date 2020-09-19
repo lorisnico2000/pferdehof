@@ -1,0 +1,16 @@
+{
+    "name": "pferdehof-am-muehlibach/pferdehof",
+    "type": "typo3-cms-extension",
+    "description": "",
+    "homepage": "http://www.pferdehof-am-muehlibach.ch/",
+    "license": ["GPL-2.0-or-later"],
+    "keywords": ["TYPO3 CMS"],
+    "require": {
+        "bk2k/bootstrap-package": "^11.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "PferdehofAmMuehlibach\\Pferdehof\\": "Classes/"
+        }
+    }
+}
