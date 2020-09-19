@@ -1,12 +1,7 @@
 /*
-!config
-!public/
-public/*
+!config/
+!config/**
 !public/favicon.ico
-!public/typo3conf/
-public/typo3conf/*
-!public/typo3conf/ext
-public/typo3conf/ext/*
 !public/typo3conf/ext/pferdehof/
 !public/typo3conf/ext/pferdehof/**
 !/public/typo3conf/AdditionalConfiguration.php
@@ -14,4 +9,3 @@ public/typo3conf/ext/*
 !.gitignore
 !composer.json
 !composer.lock
-!/config/sites/main/config.yaml
